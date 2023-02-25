@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: linear-gradient(to right,rgb(241, 142, 241),rgb(241, 143, 159));
+  
+}
+.bodyc {
+  display: flex;
+  height: 94vh;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+/* Container styles */
+.container {
+  max-width: 700px;
+  width: 600px;
+  margin: 0 auto;
+  height: 500px;
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(18, 8, 8, 0.2);
+}
+
+/* Header styles */
+h1 {
+  margin-top: -16px;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #262626;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+/* Greeting message styles */
+#greeting {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #4C4C4C;
+}
+
+/* Input field styles */
+#nameInput {
+  width: 250px;
+  height: 40px;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.buttonc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 10px;
+  background-image: linear-gradient(to right, rgb(244, 241, 241),rgb(213, 210, 210));
+  opacity: 0.8;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-top: 30px;
+  width: 90px;
+  box-shadow: 1px 2px black;
+}
+
+button:hover {
+  opacity: 1.0;
+  transform: traslateY(20deg);
+}
+
+button:active {
+  transform: translateY(2px);
+  box-shadow: 0 0;
+}
