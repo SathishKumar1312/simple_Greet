@@ -1,3 +1,3 @@
-# Task_3-simple_JS
+# simple_Greet
 
-https://sathishkumar1312.github.io/Task_3-simple_JS/
+https://sathishkumar1312.github.io/simple_Greet/
